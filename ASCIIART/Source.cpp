@@ -3,12 +3,12 @@
 int main()
 {
 	PCHAR path = new CHAR[256];
-	INT padding;
+	//INT padding;
 
 	std::cin >> path;
-	std::cin >> padding;
+	//std::cin >> padding;
 
-	AsciiArt asciiart(path, padding);
+	AsciiArt asciiart(path, 1);
 
 	delete path;
 	return 0;
